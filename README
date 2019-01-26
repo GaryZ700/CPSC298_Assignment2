@@ -2,17 +2,20 @@ Gary Zeri
 ID: 2321569
 Email: zeri@chapman.edu
 CPSC298-01
-Programming Assignment 1
+Programming Assignment 2
 
 Source Files:
-Ch1Ex1.cpp
-Ch1Ex3.cpp
-Ch1Ex5.cpp
-Ch2Ex2.cpp
-Ch2Ex4.cpp
-Ch2Ex6.cpp
+Ch3Ex1.cpp
+Ch3Ex5.cpp
+Ch4Ex2.cpp
+Ch4Ex4.cpp
+Ch4Ex11.cpp
+Ch5Ex2.cpp
+Ch5Ex4.cpp
 Menu.h
 Menu.cpp
+Dictionary.h
+Dictionary.cpp
 
 Possible Runtime Errors:
 	Running any of the six software packages on a non-Linux machine may cause input/output processing errors.
@@ -38,23 +41,43 @@ References:
 	https://www.learncpp.com/cpp-tutorial/89-class-code-and-header-files/
 	https://www.programiz.com/cpp-programming/https://www.geeksforgeeks.org/vector-in-cpp-stl/default-argument
 	http://www.cplusplus.com/reference/vector/vector/
+	https://stackoverflow.com/questions/47430782/passing-non-static-member-function-as-parameter-of-function?rq=1
+	https://stackoverflow.com/questions/47430782/passing-non-static-member-function-as-parameter-of-function?rq=1
+	http://www.cplusplus.com/reference/string/stof/
+	https://www.geeksforgeeks.org/passing-reference-to-a-pointer-in-c
+	https://stackoverflow.com/questions/33997013/c-pointers-content-disappears-after-usage
+	http://www.cplusplus.com/reference/cstdlib/calloc/
+	https://stackoverflow.com/questions/9554812/c-strings-and-pointers
+	https://www.tutorialspoint.com/cprogramming/c_pointers.htm
+	https://stackoverflow.com/questions/1350630/how-to-expand-an-array-dynamically-in-c-like-in-vector
+	https://stackoverflow.com/questions/2684603/how-do-i-initialize-a-float-to-its-max-min-value
+	https://stackoverflow.com/questions/18410234/how-does-one-represent-the-empty-char
+	https://www.programiz.com/cpp-programming/library-function/cmath/floor
+	https://www.programiz.com/cpp-programming/library-function/cmath/sqrt
+	https://www.varsitytutors.com/hotmath/hotmath_help/topics/triangle-inequality-theorem
+	http://www.cplusplus.com/reference/cstdlib/rand/
+	https://en.cppreference.com/w/c/chrono/time_t
+	http://www.cplusplus.com/reference/ctime/difftime/
 
 How to run code:
 
-g++ Ch1Ex1.cpp -o Ch1Ex1.out
-	./Ch1Ex1.out
+g++ Ch3Ex1.cpp Menu.cpp -o Ch3Ex1.out
+	./Ch3Ex1.out
 
-g++ Ch1Ex3.cpp Menu.cpp -o Ch1Ex3.out
-	./Ch1Ex3.out
+g++ Ch3Ex5.cpp Menu.cpp -o Ch3Ex5.out
+	./Ch3Ex5.out
 
-g++ Ch1Ex5.cpp Menu.cpp -o Ch1Ex5.out
-	./Ch1Ex5.out
+g++ Ch4Ex2.cpp Menu.cpp -o Ch4Ex2.out
+	./Ch4Ex2.out
 
-g++ Ch2Ex2.cpp Menu.cpp -o Ch2Ex2.out
-	./Ch2Ex2.out
+g++ Ch4Ex4.cpp Menu.cpp -o Ch4Ex4.out
+	./Ch4Ex4.out
+	
+g++ Ch4Ex11.cpp Menu.cpp -o Ch4Ex11.out
+	./Ch4Ex11.out
 
-g++ Ch2Ex4.cpp -o Ch2Ex4.out
-	./Ch2Ex4.out
+g++ Ch5Ex2.cpp -o Ch5Ex2.out
+	./Ch5Ex42out
 
-g++ Ch2Ex6.cpp Menu.cpp -o Ch2Ex6.out
-	./Ch2Ex6.out
+g++ Ch5Ex4.cpp Menu.cpp Dictionary.cpp -o Ch5Ex4.out
+	./Ch5Ex4.out
