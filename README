@@ -1,0 +1,60 @@
+Gary Zeri
+ID: 2321569
+Email: zeri@chapman.edu
+CPSC298-01
+Programming Assignment 1
+
+Source Files:
+Ch1Ex1.cpp
+Ch1Ex3.cpp
+Ch1Ex5.cpp
+Ch2Ex2.cpp
+Ch2Ex4.cpp
+Ch2Ex6.cpp
+Menu.h
+Menu.cpp
+
+Possible Runtime Errors:
+	Running any of the six software packages on a non-Linux machine may cause input/output processing errors.
+
+References:
+
+	www.stackoverflow.com/questions/5655142/how-to-check-if-input-is-numeric-in-c
+	www.stackoverflow.com/questions/39282953/how-to-reset-stdcin-when-using-it
+	http://www.cplusplus.com/reference/cmath/pow/
+	https://stackoverflow.com/questions/5212018/how-to-make-c-cout-not-use-scientific-notation
+	https://stackoverflow.com/questions/4983092/c-equivalent-of-sprintf
+	https://stackoverflow.com/questions/1343890/rounding-number-to-2-decimal-places-in-c
+	https://stackoverflow.com/questions/22127041/c-pass-variable-type-to-function
+	http://www.cplusplus.com/reference/string/to_string/
+	http://www.cplusplus.com/reference/string/string/append/
+	https://stackoverflow.com/questions/7352099/stdstring-to-char	
+	http://www.cplusplus.com/reference/vector/vector/size/
+	http://www.cplusplus.com/reference/istream/istream/getline/
+	https://www.programiz.com/cpp-programming/default-argument
+	https://stackoverflow.com/questions/6963143/headers-include-in-multiple-c-files
+	https://www.geeksforgeeks.org/string-at-in-cpp/20180874
+	http://www.cplusplus.com/reference/string/string/operator+=/
+	https://www.learncpp.com/cpp-tutorial/89-class-code-and-header-files/
+	https://www.programiz.com/cpp-programming/https://www.geeksforgeeks.org/vector-in-cpp-stl/default-argument
+	http://www.cplusplus.com/reference/vector/vector/
+
+How to run code:
+
+g++ Ch1Ex1.cpp -o Ch1Ex1.out
+	./Ch1Ex1.out
+
+g++ Ch1Ex3.cpp Menu.cpp -o Ch1Ex3.out
+	./Ch1Ex3.out
+
+g++ Ch1Ex5.cpp Menu.cpp -o Ch1Ex5.out
+	./Ch1Ex5.out
+
+g++ Ch2Ex2.cpp Menu.cpp -o Ch2Ex2.out
+	./Ch2Ex2.out
+
+g++ Ch2Ex4.cpp -o Ch2Ex4.out
+	./Ch2Ex4.out
+
+g++ Ch2Ex6.cpp Menu.cpp -o Ch2Ex6.out
+	./Ch2Ex6.out
